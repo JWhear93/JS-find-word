@@ -1,0 +1,1 @@
+Practice script to find all occurances of a word in a string.
