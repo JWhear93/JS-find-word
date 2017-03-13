@@ -25,9 +25,14 @@ function indexes(str, find) {
   return indices;
 }
 
-console.log("Find: " + myName);
-console.log("Text: " + text);
-console.log("Match found at character(s) - " + indexes(text, myName));
+if (myName != "") {
+	console.log("Find: " + myName);
+	console.log("Text: " + text);
+	console.log("Match found at character(s) - " + indexes(text, myName));
+}
+else {
+	console.log("You did not input a word to search for. Refresh to try again");
+}
 
 
 /* My "only return name" code practice.
